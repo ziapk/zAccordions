@@ -1,7 +1,7 @@
 /*
 	Author Name : Zia ur Rehman
 	Plugin Name : zAccordion
-	Version		: 1.0.0
+	Version	: 1.0.0
 	Description : This is my Own plugin.
 */
 jQuery.fn.zAccordion = function( options ) {
@@ -27,8 +27,8 @@ var settings = $.extend( {}, defaults, options );
 	init = function  (argument) {
 		ul.addClass(settings.SubMenuClass);
 		ssul.addClass(settings.SubSubMenuClass);
-		el.addClass('z-accordion');
-		el.wrap('<div class="my-item" />');
+		el.addClass('zAccordion');
+		el.wrap('<div class="zAccordionWrap" />');
 	}
 	
 	return this.each(function() {
