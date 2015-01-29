@@ -13,7 +13,7 @@ This is custom Jquery plugin
     <script src="zAccordion.js"></script>
     <script type="text/javascript">
     	$(function () {
-    		$('.cat').zAccordion();
+    		$('.yourclass').zAccordion();
     	})
     </script>
 
