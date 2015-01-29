@@ -1,27 +1,30 @@
-.zAccodion{
-	background: #ccc;
-	border: 4px solid #aaa;
+.zAccordionWrap{
+	background: #151515;
+	border: 4px solid rgba(255, 255, 255, 0.15);
 	border-radius: 10px 0 10px 0;
 	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
 	box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
 }
-	.zAccodion > ul{
+	.zAccordionWrap .zAccordion{
 		margin: 0;
 		padding: 10px 15px;
 		list-style: none;
 	}
-		.zAccodion > ul ul{
+		.zAccordion ul{
 			list-style: none;
 			margin: 0;
 			padding: 0 0 0 15px;
 		}
-	.zAccodion .active{
-		background: #bbb;
+	.zAccordion .active{
+		color: red;
 	}
-	.zAccodion a{
+	.zAccordion a{
+		color: #B5E853;
 		border-radius: 6px 0 6px 0;
 		text-decoration: none;
 		display: block;
 		padding: 5px 10px;
 		margin: 5px 0;
-		background: #ddd;}
+		background: #ddd;
+		background: rgba(0, 0, 0, 0.9);
+	}
